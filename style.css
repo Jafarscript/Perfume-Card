@@ -88,9 +88,9 @@ button{
 }
 
 
-@media(max-width:450px){
+@media(max-width:500px){
     section{
-        grid-template-rows: 0.6fr 1fr;
+        grid-template-rows: 0.7fr 1fr;
         grid-template-columns: 1fr;
         width: 100%;
     }
@@ -98,6 +98,8 @@ button{
         border-radius: 20px 20px 0px 0px;
         background-image: url('./images/image-product-mobile.jpg');
         min-height: 200px;
+        background-size: cover;
+        background-position: center center;
     }
 
     .info{
