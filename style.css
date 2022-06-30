@@ -88,7 +88,7 @@ button{
 }
 
 
-@media(max-width:375px){
+@media(max-width:450px){
     section{
         grid-template-rows: 0.6fr 1fr;
         grid-template-columns: 1fr;
